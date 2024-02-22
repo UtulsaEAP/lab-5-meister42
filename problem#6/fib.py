@@ -1,5 +1,6 @@
 def fibonacci(n):
     #write your code here
+    n = 1
 
 
 if __name__ == '__main__':
