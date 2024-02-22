@@ -1,3 +1,9 @@
+"""
+Name: Henry Holman
+Lab time: Thursday 2 pm
+"""
+
+
 def driving_cost(miles_per_gallon, dollars_per_gallon, miles_driven):
     
    cost = miles_driven / miles_per_gallon * dollars_per_gallon

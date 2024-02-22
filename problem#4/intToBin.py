@@ -1,24 +1,27 @@
+"""
+Name: Henry Holman
+Lab Time: Thursday 2pm
+
+"""
+
 def int_to_reverse_binary(num1):
-    binary_val = ''
-#write your while loop here
+    
+    revbinary_val = ''
     while num1 > 0:
-        #write your code
-        print()
+        revbinary_val += str(num1 % 2)
+        num1 = int(num1 / 2) 
+    return revbinary_val
 
-    return binary_val;
 
-
-def string_reverse(input_string): 
+def string_reverse(revbinary_val): 
     reverse_input = ''
-    print()
-   #write your for loop here
+    for i in revbinary_val:
+        reverse_input = i + reverse_input
     
     return reverse_input
 
 if __name__ == '__main__':
     user_input = int(input())
-    
-    binary_string = str(int_to_reverse_binary(user_input))
-    binary_string = str(string_reverse(binary_string))
-    print()
+    revbinary_val = str(int_to_reverse_binary(user_input))
+    binary_string = str(string_reverse(revbinary_val))
     print(binary_string)
