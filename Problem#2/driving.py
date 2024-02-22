@@ -1,4 +1,5 @@
 def driving_cost(miles_per_gallon, dollars_per_gallon, miles_driven):
+    print()
    #write your code here
 
 if __name__ == '__main__':
