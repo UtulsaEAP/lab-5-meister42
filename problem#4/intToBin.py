@@ -3,13 +3,14 @@ def int_to_reverse_binary(num1):
 #write your while loop here
     while num1 > 0:
         #write your code
+        print()
 
     return binary_val;
 
 
 def string_reverse(input_string): 
     reverse_input = ''
-    
+    print()
    #write your for loop here
     
     return reverse_input
@@ -19,5 +20,5 @@ if __name__ == '__main__':
     
     binary_string = str(int_to_reverse_binary(user_input))
     binary_string = str(string_reverse(binary_string))
-    
+    print()
     print(binary_string)
